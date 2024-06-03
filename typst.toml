@@ -1,0 +1,13 @@
+[package]
+name = "simplebook"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Fei Ye <https://github.com/fyuniv>"]
+license = "MIT"
+description = "A simple book template that can be used for lecture notes and other informal books."
+repository = "https://github.com/fyuniv/simplebook"
+
+[template]
+path = "example"
+entrypoint = "example.typ"
+thumbnail = "thumbnail.png"
